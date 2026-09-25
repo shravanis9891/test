@@ -1,4 +1,4 @@
 FROM python:latest
-WOOKDIR /app
+WORKDIR /app
 COPY helloworld.py
 CMD ("python","helloworld")
