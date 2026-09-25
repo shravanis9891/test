@@ -1,4 +1,4 @@
 FROM python:latest
 WORKDIR /app
 COPY . .
-CMD ("python","helloworld")
+CMD ("python","helloworld.py")
